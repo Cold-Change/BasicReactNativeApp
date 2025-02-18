@@ -12,57 +12,64 @@ export default function Information() {
     <SafeAreaProvider style={styles.base.container}>
     <SafeAreaView style={styles.base.scrollContainer}>
     <ScrollView style={styles.base.scrollContainer}>
-    <Text style={styles.base.title}>Information</Text>
+    <Text style={styles.base.title}>Contact Us</Text>
 
     <Text style={styles.base.normal}>
-    Thank you for choosing [App Name]! This page will provide you with all the essential details you need 
-    to maximize your experience with the app. Whether you're looking to customize settings, learn about 
-    new updates, or explore features in-depth, you've come to the right place.
+    We're here to help! If you have any questions, feedback, or need assistance, feel free to reach out to us. 
+    Our team is dedicated to providing you with prompt support and ensuring your experience with [App Name] is 
+    seamless and enjoyable. Below are the different ways you can contact us:
     </Text>
 
-    <Text style={styles.base.subTitle}>Getting Started</Text>
+    <Text style={styles.base.subTitle}>Customer Support</Text>
 
     <Text style={styles.base.normal}>
-    To get started, simply sign up or log in to your account. Once you're in, you'll have access to the main 
-    dashboard where you can navigate through various sections. If you're new, we recommend taking a quick 
-    tour to familiarize yourself with the interface and features. You can always revisit this page for 
-    guidance along the way.
+    For general inquiries, troubleshooting, or technical support, you can reach our customer support team through 
+    the following methods:
     </Text>
 
-    <Text style={styles.base.subTitle}>Personalizing Your Experience</Text>
+    <Text style={styles.base.normal}>Email: support@[appname].com</Text>
+    <Text style={styles.base.normal}>Phone: +1 (800) 123-4567</Text>
+
+    <Text style={styles.base.subTitle}>Mailing Address</Text>
 
     <Text style={styles.base.normal}>
-    [App Name] allows you to tailor the app to suit your preferences. From theme settings to notification 
-    preferences, the customization options are available in the settings menu. Make it your own by adjusting 
-    the layout and functionality to match your needs. 
-    </Text>
-
-    <Text style={styles.base.subTitle}>Security & Privacy</Text>
-
-    <Text style={styles.base.normal}>
-    Your security and privacy are our top priority. All your data is encrypted and stored securely. You can 
-    manage your privacy settings, such as data sharing and permissions, in the settings section. Additionally, 
-    we regularly update our security measures to keep your information safe.
-    </Text>
-
-    <Text style={styles.base.subTitle}>Support</Text>
-
-    <Text style={styles.base.normal}>
-    If you encounter any issues or need assistance, our support team is here to help. You can find FAQs, 
-    troubleshooting guides, and contact information in the Help & Support section. We are committed to providing 
-    you with timely and helpful solutions.
-    </Text>
-
-    <Text style={styles.base.subTitle}>Updates and New Features</Text>
-
-    <Text style={styles.base.normal}>
-    We're constantly working on improving [App Name]. Stay tuned for exciting updates, new features, and bug fixes. 
-    Make sure to enable automatic updates to get the latest version and never miss out on new capabilities.
+    If you need to send us physical mail or have any documents you'd like to send, please use the address below:
     </Text>
 
     <Text style={styles.base.normal}>
-    Thank you for being part of the [App Name] community! We’re excited to continue supporting you as you explore the app.
+    [App Name] Support Team<br />
+    1234 Tech Lane, Suite 100<br />
+    San Francisco, CA 94105<br />
+    USA
     </Text>
+
+    <Text style={styles.base.subTitle}>Business Inquiries</Text>
+
+    <Text style={styles.base.normal}>
+    For partnership opportunities, press inquiries, or business-related questions, please reach out to our business 
+    team directly:
+    </Text>
+
+    <Text style={styles.base.normal}>Email: business@[appname].com</Text>
+
+    <Text style={styles.base.subTitle}>Social Media</Text>
+
+    <Text style={styles.base.normal}>
+    Stay connected with us on social media for the latest updates, announcements, and more:
+    </Text>
+
+    <Text style={styles.base.normal}>
+    Twitter: @appname<br />
+    Facebook: facebook.com/[appname]<br />
+    Instagram: @appname<br />
+    LinkedIn: linkedin.com/company/[appname]
+    </Text>
+
+    <Text style={styles.base.normal}>
+    We look forward to hearing from you and are always happy to assist. Your feedback is important to us as we 
+    continue to improve [App Name].
+    </Text>
+
       </ScrollView>
     </SafeAreaView>
     <View style={styles.base.navContainer}>

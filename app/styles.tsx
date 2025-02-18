@@ -95,6 +95,14 @@ export const base = StyleSheet.create({
         color: colors.Black,
         textAlign: "center",
     },
+    title: {
+        fontSize: fontSize.Title,
+        fontWeight: "bold",
+        marginTop: 25,
+        marginBottom: 15,
+        color: colors.Black,
+        textAlign: "center",
+    },
     header: {
         fontSize: fontSize.Base,
         fontWeight: "bold",
